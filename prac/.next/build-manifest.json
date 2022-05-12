@@ -1,0 +1,60 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/1qeOoDg5qpRVRna_p3bUD/_buildManifest.js",
+    "static/1qeOoDg5qpRVRna_p3bUD/_ssgManifest.js",
+    "static/1qeOoDg5qpRVRna_p3bUD/_middlewareManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-679bfde451968dd4.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-ef9379c68abd1065.js",
+      "static/chunks/439-162c956e8dff0da4.js",
+      "static/chunks/pages/index-40d285ab3ad5c096.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-679bfde451968dd4.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-ef9379c68abd1065.js",
+      "static/css/784e61b7939f06ed.css",
+      "static/chunks/pages/_app-3c593a601ad273ce.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-679bfde451968dd4.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-ef9379c68abd1065.js",
+      "static/chunks/pages/_error-777a5f0e462a9bdf.js"
+    ],
+    "/game": [
+      "static/chunks/webpack-679bfde451968dd4.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-ef9379c68abd1065.js",
+      "static/chunks/pages/game-cd1ff29b1f646d26.js"
+    ],
+    "/join": [
+      "static/chunks/webpack-679bfde451968dd4.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-ef9379c68abd1065.js",
+      "static/chunks/pages/join-e175086315a877cd.js"
+    ],
+    "/login": [
+      "static/chunks/webpack-679bfde451968dd4.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-ef9379c68abd1065.js",
+      "static/chunks/439-162c956e8dff0da4.js",
+      "static/chunks/pages/login-1c883280c0627617.js"
+    ],
+    "/ranking": [
+      "static/chunks/webpack-679bfde451968dd4.js",
+      "static/chunks/framework-a87821de553db91d.js",
+      "static/chunks/main-ef9379c68abd1065.js",
+      "static/chunks/pages/ranking-30f5bd9e81fca5df.js"
+    ]
+  },
+  "ampFirstPages": []
+}

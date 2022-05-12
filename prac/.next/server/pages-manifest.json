@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.html",
+  "/join": "pages/join.html",
+  "/game": "pages/game.html",
+  "/ranking": "pages/ranking.html",
+  "/login": "pages/login.html",
+  "/_error": "pages/_error.js",
+  "/404": "pages/404.html"
+}
