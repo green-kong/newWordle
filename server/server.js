@@ -8,7 +8,7 @@ const path = require('path');
 const app = express();
 
 //variable
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.NODE_ENV === 'production' ? 80 : 4000;
 const COOKIE_SECRET = process.env.COOKIE_SECRET || 'ingoo';
 
 // router
