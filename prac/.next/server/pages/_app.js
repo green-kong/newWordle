@@ -157,13 +157,14 @@ const external_axios_namespaceObject = require("axios");
 var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_namespaceObject);
 ;// CONCATENATED MODULE: ./api/user/login.js
 
+(external_axios_default()).defaults.baseURL =  true ? '43.200.18.7' : 0;
 const loginAPI = async payload => {
-  const url = 'http://localhost:4000/api/user/login';
+  const url = '/api/user/login';
   const response = await external_axios_default().post(url, payload);
   return response.data;
 };
 const verifyAPI = async payload => {
-  const url = 'http://localhost:4000/api/user/me';
+  const url = '/api/user/me';
   const option = {
     headers: {
       Authorization: `Bearer ${payload.token}`
@@ -173,7 +174,7 @@ const verifyAPI = async payload => {
   return response.data;
 };
 const joinAPI = async payload => {
-  const url = 'http://localhost:4000/api/user/join';
+  const url = '/api/user/join';
   const response = await external_axios_default().post(url, payload);
   return response.data;
 };
